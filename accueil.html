@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Projet JavaScript</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body onkeyup="clavier();">
+        
+        <audio id="theme">
+            <source src="musique/Undertale%20-%20Megalovania.mp3">
+        </audio>
+        
+        <div id="conteneur">
+            
+            <div id="bouton"><input id="boutonJeux" type="button" value="Jouer" onclick="clic();"></div>
+            <div id="texte">
+                <div id="mot1"></div>
+                <div id="mot2"></div>
+                <div id="mot3"></div>
+                <div id="mot4"></div>
+                <div id="mot5"></div>
+                <div id="mot6"></div>
+                <div id="mot7"></div>
+                <div id="mot8"></div>
+                <div id="mot9"></div>
+                <div id="mot10"></div>
+            </div>
+            <div id="reponse"><input id="champReponse" type="text"></div>
+            <div id="timer">60</div>
+            <div id="compteurMot">0 mots</div>
+            <div id="compteurErreur">0 erreurs</div>
+            <div id="resultat"></div>
+            <div id="erreur"></div>
+            <div id="image"><img id="cheval" src="image/cheval.gif" width="150" height="150"></div>
+        
+        </div>
+        
+        <script type="text/javascript" src="js/script.js"></script>
+        
+    </body>
+    
+</html>

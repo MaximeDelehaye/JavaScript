@@ -1,0 +1,63 @@
+#bouton{
+    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bouton input[type="button"]{
+    background-color:#f8f8f8 ;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+#texte{
+    height: 50px;
+    width: 800px;
+    background-color: #f8f8f8;
+    text-align: center;
+    border: 2px black solid;
+    padding-top: 23px;
+    margin: auto;
+}
+
+#mot1, #mot2, #mot3, #mot4, #mot5, #mot6, #mot7, #mot8, #mot9, #mot10{display: none;}
+
+#reponse{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#champReponse{
+    font-size: 20px;
+    border: 2px black solid;
+    background-color: #f8f8f8;
+    text-align: center;
+    outline: none;
+}
+
+#timer, #compteurMot, #compteurErreur{
+    font-size: 40px;
+    height: 50px;
+    width: 200px;
+    border: 2px black solid;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#resultat, #erreur{
+    font-size: 30px;
+    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+
+#image{
+    padding-top: 20px;
+    padding-left: 20px;
+}
