@@ -1,0 +1,77 @@
+/*-------------------------------------------FONTS---------------------------------------------*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), 
+       local('Roboto-Regular'), 
+       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+       format('woff');
+}
+
+/*----------------------------------------header-styles---------------------------------------*/
+
+/*----------------------------------------Loader---------------------------------------*/
+.loader {
+
+position : fixed;
+z-index: 9999;
+background : url('../icon-loader.gif') 50% no-repeat;
+	background-color: #FFFFFF;
+top : 0px;
+left : 0px;
+height : 100%;
+width : 100%;
+cursor : wait;
+}
+/*----------------------------------------Loader---------------------------------------*/
+
+
+body {margin: 0px; padding: 0px;
+    background: url(../Sans%20titre-2.jpg) no-repeat;
+    background-size: cover;
+} 
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 70px;}
+
+#center {
+	border: 2px #699cf8 solid;
+}
+
+
+#choix {
+	margin-top: 150px;
+	margin-left: 250px;
+}
+
+#chrono {
+	float: left;
+	margin-left: 180px;
+	  max-width: 100%;
+    height: auto;
+	min-width: 30px;
+}
+
+footer
+{
+	padding-top: 10px;
+	padding-bottom : 10px;
+	font-family: 'Roboto';
+	height: 20px;
+	max-height: 40px;
+position: absolute; 
+	bottom: 0; left: 0; right: 0;
+    text-align: center;
+    bottom: 0;
+    color: #000000;
+    background-color: rgba(206, 206, 206, 0.45);
+    background-repeat: repeat-x;
+}
+input {
+	width: 144.756px;
+	height: 37.7953px;
+}
