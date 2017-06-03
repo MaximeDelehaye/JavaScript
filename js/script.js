@@ -1,4 +1,4 @@
-var tableau=['LOUPER','BIJOUX','SURNOM','SOCIAL','CHARME','ARGILE','BRIQUE','BRESIL','CAHIER','COMPTE','COPAIN','DANSER','DEBOUT','DEVOIR','DICTER','DRAGON','DEGOUT','FARINE','FLUIDE','CLIMAT',           'GOUTER','ZOMBIE','YAOURT','VALISE','VAPEUR','VOLCAN','CHATON','UTOPIE','TOMBER','TACHER','SCHEMA','RAGOUT','SECOND','SONGER','SUIVRE','RAPIDE','MANGER','QUARTZ','PARDON','PARENT','PAREIL','PRISON','PRENOM','ORTEIL','NOMBRE','HANTER','JOYEUX','OISEAU','SAVEUR','PROJET'];
+﻿var tableau=['LOUPER','BIJOUX','SURNOM','SOCIAL','CHARME','ARGILE','BRIQUE','BRESIL','CAHIER','COMPTE','COPAIN','DANSER','DEBOUT','DEVOIR','DICTER','DRAGON','DEGOUT','FARINE','FLUIDE','CLIMAT',           'GOUTER','ZOMBIE','YAOURT','VALISE','VAPEUR','VOLCAN','CHATON','UTOPIE','TOMBER','TACHER','SCHEMA','RAGOUT','SECOND','SONGER','SUIVRE','RAPIDE','MANGER','QUARTZ','PARDON','PARENT','PAREIL','PRISON','PRENOM','ORTEIL','NOMBRE','HANTER','JOYEUX','OISEAU','SAVEUR','PROJET'];
 
 var mot=["","","","","","","","","",""]; //Tableau contenant les 10 mots affichés
 var i; // Compteur
@@ -140,7 +140,7 @@ function clavier(){
         if(event.keyCode==8 && erreur>0){
             //Si c'est le bouton supp et si il y a plusieurs erreurs
             erreur=erreur-1; //Les erreurs diminue de 1
-            if(erreur==0){
+            if(erreur==0 && compteurLettre>0){
                 // Si l'erreur passe a 0
                 document.getElementById("mot"+compteurMot).style.color="green";
             }
